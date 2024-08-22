@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black !important;
+    overflow: hidden;
+}
+
+.img {
+    width: 90vw;
+    height:90vh;
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 8vw;
+    color: white;
+    opacity: 0;
+    text-shadow: 0 0 3px #3bc60c40, 0 0 5px rgba(0, 0, 0, 0.296);
+}
